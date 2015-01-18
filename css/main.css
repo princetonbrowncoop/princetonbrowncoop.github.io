@@ -1,3 +1,21 @@
+/*****************************
+GENERAL
+******************************/
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+/*****************************
+HEADER
+******************************/
+
 #logo {
   display: block;
   background: brown;
