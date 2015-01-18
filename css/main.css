@@ -94,7 +94,15 @@ h1, h2 {
   margin-top: 0;
 }
 
+/*****************************
+  MEMBERS
+******************************/
 
-footer {
-  margin: 0 auto -100px;
+.members img {
+  margin-bottom: 40px;
+}
+
+.tooltip-inner {
+  text-align:left;
+  width: 150px;
 }
