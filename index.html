@@ -14,9 +14,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Amatic+SC' rel='stylesheet' type='text/css'>
   <link href="css/main.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <link href="css/flaticon.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -27,7 +25,9 @@
 
 <body>
   <!-- NAVBAR -->
-  <div id="logo" class="text-center">brown coop</div>
+  <div id="logo" class="text-center">
+    <span>brown<br/>coop</span>
+  </div>
 
   <nav id="navbar" class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -41,14 +41,18 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Join Us</a></li>
+          <li><a href="">HOME</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="">ABOUT</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="">JOIN US</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="">Members</a></li>
-          <li><a href="">Recipes</a></li>
-          <li><a href="">Photos</a></li>
+          <li><a href="">MEMBERS</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="">RECIPES</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="">PHOTOS</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -60,16 +64,16 @@
     </div>
   </div>
 
-  <div id="home-container" class="container">
+  <div class="container">
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-6">
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
           </ol>
 
           <!-- Wrapper for slides -->
@@ -89,11 +93,11 @@
           </div>
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -115,7 +119,9 @@
           <p>&copy; Jenny Shi &amp; Kathy Sun</p>
         </div>
         <div class="col-xs-6 text-right">
-          FB | EMAIL | INSTAGRAM
+	  <a href="https://www.facebook.com/thebrowncoop" target="_blank"><span class="flaticon-facebook44"></span></a>
+	  <a href="mailto:brwncoop@princeton.edu" target="_blank"><span class="flaticon-mail22"></span></a>
+  	  <a href="" target="_blank"><span class="flaticon-instagram13"></span></a>
         </div>
       </div>
     </footer>
