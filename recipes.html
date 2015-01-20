@@ -13,6 +13,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Amatic+SC' rel='stylesheet' type='text/css'>
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
   <link href="css/flaticon.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,16 +38,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a class="navbar-brand" href="#">Brown Co-op</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+        <ul id="nav-left" class="nav navbar-nav">
           <li><a href="index.html">HOME</a></li>
           <li class="nav-divider">&middot;</li>
           <li><a href="about.html">ABOUT</a></li>
           <li class="nav-divider">&middot;</li>
           <li><a href="join.html">JOIN US</a></li>
+          <li id="center-dot" class="nav-divider">&middot;</li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul id="nav-right" class="nav navbar-nav navbar-right">
           <li><a href="members.html">MEMBERS</a></li>
           <li class="nav-divider">&middot;</li>
           <li><a href="recipes.html">RECIPES</a></li>
@@ -57,30 +60,58 @@
     </div>
   </nav>
 
-  <div class="jumbotron">
+  <div class="jumbotron" id="recipes-jumbo">
     <div class="container">
       <h1>Recipes</h1>
     </div>
   </div>
 
   <div class="container">
+
+    <h2>Appetizers</h2>
     <div class="row">
-      <h2>Appetizers</h2>
       <!--Column 1-->
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="recipe">
-          <img src="images/recipes_teaeggs.jpg">
+          <a data-toggle="modal" data-target="#teaEggs"><img src="images/recipes_teaeggs.jpg"></a>
           <p class="bold">Tea Eggs</p>
           <p>Yifan Li '14 and Michelle Wu '14</p>
         </div>
+        <!-- Tea Eggs -->
+        <div id="teaEggs" class="modal fade" tabindex="-1" role="dialog"><div class="modal-dialog"><div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Tea Eggs</h4>
+          </div>
+          <div class="modal-body">
+            <h5>Ingredients</h5>
+            <ul>
+              <li>Eggs</li>
+              <li>Water</li>
+              <li>Soy sauce</li>
+              <li>Five spice (anise, Chinese cinnamon, cloves, ginger, fennel)</li>
+              <li>Tea leaves (can be done with tea bags, but leaves give best result. I recommend using pu er tea)</li>
+              <li>Salt</li>
+            </ul>
+            <h5>Directions</h5>
+            <ol>
+              <li>Hard boil eggs in enough boiling water to cover. Add salt to water to facilitate peeling and to raise water temperature for faster cooking.</li>
+              <li>When the eggs are cooked, crack them all around, making sure that the cracks are deep. Ideally the cracks should be deep enough that the shards pierce the membrane of the cooked egg. When in doubt, crack harder. But make sure that the shell remains on the egg.</li>
+              <li>Prepare the broth with about a 25:1 ratio of water to soy sauce (~750 mL to 30 mL will do for about 8 eggs). Add five spice and more soy sauce to taste. When in doubt, add more five spice. Use about as many tea leaves as you would if you were brewing that volume of tea, maybe a little more if your tea is cheap, definitely more if you're using tea bags. Boil the broth until the tea leaves open and the tea aroma is infused. Let simmer.</li>
+              <li>Slow cook the eggs over very low heat for many hours (24 should do). If slow cooking is inconvenient, then let the eggs steep in the refrigerator. It will take longer.</li>
+            </ol>
+          </div>
+        </div></div></div>
+
         <div class="recipe">
           <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Spanikopita_Greek_dish.jpg/640px-Spanikopita_Greek_dish.jpg">
           <p class="bold">Spanakopita</p>
           <p>Kelly Lin Kremer '14</p>
         </div>
       </div>
+
       <!--Column 2-->
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="recipe">
           <img src="http://christmasstockimages.com/free/food-dining/slides/stilton_cheese.jpg">
           <p class="bold">Bacon Blue Cheese Dip</p>
@@ -92,8 +123,9 @@
           <p>Elena Slobodyan '16</p>
         </div>
       </div>
+
       <!--Column 3-->
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="recipe">
           <img src="images/recipes_deviledeggs.jpg">
           <p class="bold">Deviled Eggs</p>
@@ -106,56 +138,58 @@
         </div>
       </div>
     </div>
+
+    <h2>Entr&eacute;es</h2>
     <div class="row">
-      <h2>Entr&eacute;es</h2>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
     </div>
+
+    <h2>Desserts</h2>
     <div class="row">
-      <h2>Desserts</h2>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
     </div>
+
+    <h2>Drinks</h2>
     <div class="row">
-      <h2>Drinks</h2>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
       </div>
     </div>
-  </div>
 
-  <hr>
+    <hr>
 
-  <footer>
-    <div class="row">
-      <div class="col-xs-6">
-        <p>&copy; Jenny Shi &amp; Kathy Sun</p>
+    <footer>
+      <div class="row">
+        <div class="col-xs-6">
+          <p>&copy; Jenny Shi &amp; Kathy Sun</p>
+        </div>
+        <div class="icons col-xs-6 text-right">
+          <a href="https://www.facebook.com/thebrowncoop" target="_blank"><span class="flaticon-facebook44"></span></a>
+          <a href="mailto:brwncoop@princeton.edu" target="_blank"><span class="flaticon-mail22"></span></a>
+          <a href="" target="_blank"><span class="flaticon-instagram13"></span></a>
+        </div>
       </div>
-      <div class="col-xs-6 text-right">
-        <a href="https://www.facebook.com/thebrowncoop" target="_blank"><span class="flaticon-facebook44"></span></a>
-        <a href="mailto:brwncoop@princeton.edu" target="_blank"><span class="flaticon-mail22"></span></a>
-        <a href="" target="_blank"><span class="flaticon-instagram13"></span></a>
-      </div>
-    </div>
-  </footer>
-</div> <!-- /container -->
+    </footer>
+  </div> <!-- /container -->
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

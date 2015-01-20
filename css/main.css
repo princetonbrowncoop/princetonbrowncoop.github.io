@@ -84,13 +84,17 @@ h1, h2 {
 .jumbotron {
   height: 250px;
   text-align: center;
+  background-color: #ff8f00;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .jumbotron h1 {
   background: rgba(0, 0, 0, .35);
   color: #fff;
   display:inline-block;
-  padding: 15px;
+  padding: 10px;
 }
 
 .jumbotron .container {
@@ -100,13 +104,15 @@ h1, h2 {
 }
 
 #about-jumbo {
-  background: #ff8f00 url("../images/large_brownhall.jpg") no-repeat center center;
-  background-size: cover;
+  background-image: url("../images/large_brownhall.jpg");
 }
 
 #join-jumbo {
-  background: #ff8f00 url("../images/large_soiree7.jpg") no-repeat center center;
-  background-size: cover;
+  background-image: url("../images/large_soiree7.jpg");
+}
+
+#recipes-jumbo {
+  background-image: url("../images/large_cookies.jpg");
 }
 
 /*****************************
@@ -134,16 +140,23 @@ RECIPES
 ******************************/
 
 .recipe {
-  padding: 5%;
   border: .125em solid #ccc;
+  border-radius: 6px;
   box-shadow: 2px 2px 5px 0 #ddd;
-  margin-bottom: 5%;
   line-height: 90%;
+  margin-bottom: 5%;
+  padding: 5%;
 }
 
 .recipe img {
-  max-width: 100%;
   margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.recipe img:hover {
+  cursor: zoom-in;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  opacity: 0.6;
 }
 
 /*****************************
@@ -152,3 +165,4 @@ RECIPES
 
 .icons a {
   text-decoration: none;
+}
