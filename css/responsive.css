@@ -1,0 +1,53 @@
+@media screen and (max-width: 991px) {
+
+  /* hide logo when links converge */
+  #logo {
+    display: none;
+  }
+
+  /* need to add another dot when links converge */
+  #center-dot {
+    display: block;
+  }
+
+  #home-header {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* hide dots in hamburger menu */
+  .navbar-collapse .nav > .nav-divider {
+    display: none;
+  }
+
+  #center-dot {
+    display: none;
+  }
+
+  /* display "Brown Co-op" on left side of navbar */
+  .navbar-brand {
+    display: block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+  }
+
+  /* format hamburger menu */
+  #nav-left {
+    margin-bottom: 0;
+  }
+
+  .navbar-nav li a {
+    line-height: 20px;
+    font-size: 1.35em;
+  }
+
+  #nav-left li:first-child a {
+    padding-left: 15px;
+  }
+
+  #nav-right {
+    margin-top: 0;
+  }
+}

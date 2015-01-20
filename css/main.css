@@ -46,10 +46,6 @@ h1, h2 {
   top: 22.5%;
 }
 
-#navbar {
-  /*height: 130px;*/
-}
-
 .navbar {
   margin-bottom: 0;
 }
@@ -63,18 +59,13 @@ h1, h2 {
   margin: 0 10px;
 }
 
-@media (max-width: 767px) {
-.navbar-collapse .nav > .nav-divider {
-    display: none;
-  }
+#center-dot {
+  display: none;
+  margin: 0 10px;
 }
 
 .navbar-brand {
-  height: 130px;
-}
-
-.navbar-nav {
-  height: 130px;
+  display: none;
 }
 
 .navbar-nav li a {
@@ -82,13 +73,40 @@ h1, h2 {
   font-size: 1.35em;
 }
 
+#nav-left li:first-child a {
+  padding-left: 0;
+}
+
 /*****************************
   JUMBOTRON
 ******************************/
 
 .jumbotron {
-  background-color: orange;
-  height: 275px;
+  height: 250px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  background: rgba(0, 0, 0, .35);
+  color: #fff;
+  display:inline-block;
+  padding: 15px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about-jumbo {
+  background: #ff8f00 url("../images/large_brownhall.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#join-jumbo {
+  background: #ff8f00 url("../images/large_soiree7.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 /*****************************
@@ -109,4 +127,12 @@ h1, h2 {
 .tooltip-inner {
   text-align:left;
   width: 150px;
+}
+
+/*****************************
+  FOOTER
+******************************/
+
+.icons a {
+  text-decoration: none;
 }
