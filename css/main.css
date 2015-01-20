@@ -130,9 +130,25 @@ h1, h2 {
 }
 
 /*****************************
+RECIPES
+******************************/
+
+.recipe {
+  padding: 5%;
+  border: .125em solid #ccc;
+  box-shadow: 2px 2px 5px 0 #ddd;
+  margin-bottom: 5%;
+  line-height: 90%;
+}
+
+.recipe img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/*****************************
   FOOTER
 ******************************/
 
 .icons a {
   text-decoration: none;
-}
