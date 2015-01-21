@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Brown Food Co-operative</title>
+
+  <!-- Photo Gallery -->
+  <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Amatic+SC' rel='stylesheet' type='text/css'>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/flaticon.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div id="logo" class="text-center">
+    <span>brown<br/>co-op</span>
+  </div>
+
+  <nav id="navbar" class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brown Co-op</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul id="nav-left" class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="join.html">JOIN US</a></li>
+          <li id="center-dot" class="nav-divider">&middot;</li>
+        </ul>
+        <ul id="nav-right" class="nav navbar-nav navbar-right">
+          <li><a href="members.html">MEMBERS</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="recipes.html">RECIPES</a></li>
+          <li class="nav-divider">&middot;</li>
+          <li><a href="photos.html">PHOTOS</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="photos-jumbo">
+    <div class="container">
+      <h1>Photos</h1>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
+      <!-- The container for the modal slides -->
+      <div class="slides"></div>
+      <!-- Controls for the borderless lightbox -->
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+      <div class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next">
+                Next
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="images/gallery/dinnertime.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_dinnertime.jpg"></a>
+    <a href="images/gallery/f12.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_f12.jpg"></a>
+    <a href="images/gallery/f12-1.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_f12-1.jpg"></a>
+    <a href="images/gallery/f12_seniors.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_f12_seniors.jpg"></a>
+    <a href="images/gallery/f12_juniors.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_f12_juniors.jpg"></a>
+    <a href="images/gallery/hop.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_hop.jpg"></a>
+    <a href="images/gallery/hop1.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_hop1.jpg"></a>
+    <a href="images/gallery/hop2.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_hop2.jpg"></a>
+    <a href="images/gallery/hop3.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_hop3.jpg"></a>
+    <a href="images/gallery/flora.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_flora.jpg"></a>
+    <a href="images/gallery/hop4.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_hop4.jpg"></a>
+    <a href="images/gallery/soiree2.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_soiree2.jpg"></a>
+    <a href="images/gallery/soiree3.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_soiree3.jpg"></a>
+    <a href="images/gallery/soiree4.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_soiree4.jpg"></a>
+    <a href="images/gallery/soiree5.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_soiree5.jpg"></a>
+    <a href="images/gallery/soiree7.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_soiree7.jpg"></a>
+    <a href="images/gallery/tofuPudding1.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_tofuPudding1.jpg"></a>
+    <a href="images/gallery/floraCookie.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_floraCookie.jpg"></a>
+    <a href="images/gallery/christian.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_christian.jpg"></a>
+    <a href="images/gallery/scones.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_scones.jpg"></a>
+    <a href="images/gallery/chilaquiles.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_chilaquiles.jpg"></a>
+    <a href="images/gallery/wenWei.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_wenWei.jpg"></a>
+    <a href="images/gallery/ryan.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_ryan.jpg"></a>
+    <a href="images/gallery/watermelonGin.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_watermelonGin.jpg"></a>
+    <a href="images/gallery/wine.jpg" data-gallery><img class="thumb" src="images/gallery/thumb_wine.jpg"></a>
+    <a href="images/gallery/scallops.jpg" data-gallery><img class="thumb" src="images/gallery/scallops.jpg"></a>
+    <a href="images/gallery/macarons.jpg" data-gallery><img class="thumb" src="images/gallery/macarons.jpg"></a>
+    <a href="images/gallery/hongShaoRou.jpg" data-gallery><img class="thumb" src="images/gallery/hongShaoRou.jpg"></a>
+    <a href="images/gallery/tofuPudding.jpg" data-gallery><img class="thumb" src="images/gallery/tofuPudding.jpg"></a>
+    <a href="images/gallery/mexicanBread.jpg" data-gallery><img class="thumb" src="images/gallery/mexicanBread.jpg"></a>
+    <a href="images/gallery/pizza.jpg" data-gallery><img class="thumb" src="images/gallery/pizza.jpg"></a>
+    <a href="images/gallery/cookies.jpg" data-gallery><img class="thumb" src="images/gallery/cookies.jpg"></a>
+    <a href="images/gallery/mangoStickyRice.jpg" data-gallery><img class="thumb" src="images/gallery/mangoStickyRice.jpg"></a>
+    <a href="images/gallery/pieDay.jpg" data-gallery><img class="thumb" src="images/gallery/pieDay.jpg"></a>
+    <a href="images/gallery/cookies1.jpg" data-gallery><img class="thumb" src="images/gallery/cookies1.jpg"></a>
+    <a href="images/gallery/dinner.jpg" data-gallery><img class="thumb" src="images/gallery/dinner.jpg"></a>
+    <a href="images/gallery/marbledBrownie.jpg" data-gallery><img class="thumb" src="images/gallery/marbledBrownie.jpg"></a>
+    <a href="images/gallery/turkey.jpg" data-gallery><img class="thumb" src="images/gallery/turkey.jpg"></a>
+    <a href="images/gallery/tacos.jpg" data-gallery><img class="thumb" src="images/gallery/tacos.jpg"></a>
+    <a href="images/gallery/mardiGras.jpg" data-gallery><img class="thumb" src="images/gallery/mardiGras.jpg"></a>
+
+    <hr>
+
+    <footer>
+      <div class="row">
+        <div class="col-xs-6">
+          <p>&copy; Jenny Shi &amp; Kathy Sun</p>
+        </div>
+        <div class="icons col-xs-6 text-right">
+          <a href="https://www.facebook.com/thebrowncoop" target="_blank"><span class="flaticon-facebook44"></span></a>
+          <a href="mailto:brwncoop@princeton.edu" target="_blank"><span class="flaticon-mail22"></span></a>
+          <a href="" target="_blank"><span class="flaticon-instagram13"></span></a>
+        </div>
+      </div>
+    </footer>
+  </div> <!-- /container -->
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Photo Gallery JS -->
+  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="js/bootstrap-image-gallery.min.js"></script>
+
+</body>
+</html>

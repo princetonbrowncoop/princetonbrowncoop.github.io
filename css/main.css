@@ -115,6 +115,10 @@ h1, h2 {
   background-image: url("../images/large_cookies.jpg");
 }
 
+#photos-jumbo {
+  background-image: url("../images/large_hop.jpg");
+}
+
 /*****************************
   HOME PAGE
 ******************************/
@@ -128,6 +132,15 @@ h1, h2 {
 
 .members img {
   margin-bottom: 40px;
+  -o-transition: .25s;
+  -ms-transition: .25s;
+  -moz-transition: .25s;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.members img:hover {
+  transform: translateY(-2px);
 }
 
 .tooltip-inner {
@@ -136,7 +149,7 @@ h1, h2 {
 }
 
 /*****************************
-RECIPES
+  RECIPES
 ******************************/
 
 .recipe {
@@ -157,6 +170,16 @@ RECIPES
   cursor: zoom-in;
   filter: alpha(opacity=60); /* For IE8 and earlier */
   opacity: 0.6;
+}
+
+
+/*****************************
+  PHOTOS
+******************************/
+
+.thumb {
+  width: 150px;
+  margin: 5px;
 }
 
 /*****************************
