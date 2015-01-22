@@ -1,8 +1,12 @@
 @media screen and (max-width: 991px) {
 
-  /* hide logo when links converge */
+  /* hide circle logo/display banner logo when links converge */
   #logo {
     display: none;
+  }
+
+  #logo-sm {
+    display: block;
   }
 
   /* need to add another dot when links converge */
@@ -26,11 +30,16 @@
     display: none;
   }
 
+  /* hide banner logo */
+  #logo-sm {
+    display: none;
+  }
+
   /* display "Brown Co-op" on left side of navbar */
   .navbar-brand {
     display: block;
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 
   /* format hamburger menu */
@@ -40,7 +49,7 @@
 
   .navbar-nav li a {
     line-height: 20px;
-    font-size: 1.35em;
+    font-size: 1em;
   }
 
   #nav-left li:first-child a {
