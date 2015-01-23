@@ -1,12 +1,16 @@
 @media screen and (max-width: 991px) {
 
+  /*****************************
+    NAVBAR
+  ******************************/
+
   /* hide circle logo/display banner logo when links converge */
   #logo {
     display: none;
   }
 
-  #logo-sm {
-    display: block;
+  #alt-title {
+    display: inline-block;
   }
 
   .navbar .nav-divider {
@@ -18,12 +22,20 @@
     display: block;
   }
 
+  /*****************************
+    HOME PAGE
+  ******************************/
+
   #home-header {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 767px) {
+
+  /*****************************
+    NAVBAR
+  ******************************/
 
   /* hide dots in hamburger menu */
   .navbar-collapse .nav > .nav-divider {
@@ -34,12 +46,11 @@
     display: none;
   }
 
-  /* hide banner logo */
-  #logo-sm {
+  #alt-title {
     display: none;
   }
 
-  /* display "Brown Co-op" on left side of navbar */
+  /* display site name on navbar */
   .navbar-brand {
     display: block;
     font-family: 'Amatic SC', cursive;
@@ -70,5 +81,21 @@
 
   #nav-right {
     margin-top: 0;
+  }
+
+  /*****************************
+    FOOTER
+  ******************************/
+
+  #copyright {
+    text-align: center;
+  }
+
+  #copyright p {
+    line-height: 1.2em;
+  }
+
+  .icons {
+    text-align: center;
   }
 }
