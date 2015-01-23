@@ -21,7 +21,7 @@ h1, h2 {
 ******************************/
 
 #logo {
-  background: #333;
+  background-color: #333;
   border: .125em dashed #fff;
   border-radius: 100%;
   box-shadow: 0px 0px 0px 4px #333;
@@ -59,7 +59,7 @@ h1, h2 {
   margin-right: auto;
   position: absolute;
   right: 0;
-  top: 135px;
+  top: 134px;
   width: 250px;
   z-index: 9999;
 }
@@ -73,6 +73,7 @@ h1, h2 {
 
 .navbar {
   margin-bottom: 0;
+  border: 0;
 }
 
 .navbar .nav-divider {
@@ -109,7 +110,7 @@ h1, h2 {
 .jumbotron {
   height: 250px;
   text-align: center;
-  background-color: #ff8f00;
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
