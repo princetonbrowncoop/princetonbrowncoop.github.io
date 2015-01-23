@@ -7,16 +7,21 @@ $(function () {
   });
 });
 
+// navbar hover effect
+
+
 // fancy hover effect for recipe cards
 $('.recipe')
   .mouseover(function() {
     $(this).find('img').css("opacity", "0.6");
     $(this).find('img').css("transform", "scale(1.2)");
-    $(this).css("background-color", "#ff8f00");
+    $(this).find('a').css("color", "#fff");
+    $(this).css("background-color", "#21937f");
     $(this).css("cursor", "zoom-in");
 })
   .mouseout(function() {
     $(this).find('img').css("opacity", "1");
     $(this).find('img').css("transform", "scale(1)");
+    $(this).find('a').css("color", "#000");
     $(this).css("background-color", "#fff");
 });

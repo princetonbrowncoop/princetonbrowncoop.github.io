@@ -1,3 +1,7 @@
+/*
+color: #c9412c;
+*/
+
 /*****************************
   GENERAL
 ******************************/
@@ -8,8 +12,49 @@ body {
   font-size: 14px;
 }
 
-h1, h2 {
-  font-family: 'Amatic SC', cursive;
+a {
+  color: #2cc3a8;
+}
+
+a:hover {
+  color: #21937f;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 9px 20px 10px;
+  background-color: #555;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-right: 15px solid #555;
+  border-bottom: 19px solid transparent;
+}
+
+h2:after {
+  content:"";
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-left: 15px solid #555;
+  border-bottom: 19px solid transparent;
 }
 
 .bold {
@@ -21,10 +66,10 @@ h1, h2 {
 ******************************/
 
 #logo {
-  background-color: #333;
+  background-color: #473537;
   border: .125em dashed #fff;
   border-radius: 100%;
-  box-shadow: 0px 0px 0px 4px #333;
+  box-shadow: 0 0 0 4px #473537;
   display: block;
   height: 175px;
   left: 0;
@@ -43,11 +88,12 @@ h1, h2 {
   font-size: 3.5em;
   line-height: 90%;
   position: relative;
-  top: 22.5%;
+  top: 25%;
+  transform: translateY(-25%);
 }
 
 #logo-sm {
-  background: #333;
+  background-color: #473537;
   border: .125em dashed #fff;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -67,40 +113,60 @@ h1, h2 {
 #logo-sm span {
   color: #fff;
   font-family: 'Amatic SC', cursive;
-  font-size: 3.5em;
-  line-height: 90%;
+  font-size: 3.25em;
+  line-height: 100%;
 }
 
 .navbar {
-  margin-bottom: 0;
+  background-color: #c9413c;
   border: 0;
+  margin-bottom: 0;
 }
 
 .navbar .nav-divider {
-  background-color: #f8f8f8;
+  background-color: #c9413c;
   font-weight: bold;
   font-size: 1.5em;
   height: 130px;
   line-height: 130px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 #center-dot {
   display: none;
-  margin: 0 10px;
+  margin: 0 11px;
 }
 
 .navbar-brand {
+  color: #fff !important;
   display: none;
 }
 
 .navbar-nav li a {
-  line-height: 100px;
+  color: #fff !important;
   font-size: 1.35em;
+  line-height: 100px;
+  -o-transition: .1s ease-in-out;
+  -ms-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
-#nav-left li:first-child a {
-  padding-left: 0;
+.navbar-nav li a:hover {
+  box-shadow: inset 0px 5px 0px 0px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #da7d79;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
 }
 
 /*****************************
@@ -109,7 +175,7 @@ h1, h2 {
 
 .jumbotron {
   height: 250px;
-  text-align: center;
+/**  text-align: center; **/
   background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,10 +183,12 @@ h1, h2 {
 }
 
 .jumbotron h1 {
-  background: rgba(0, 0, 0, .35);
+/**  background: rgba(0, 0, 0, .65); **/
   color: #fff;
-  display:inline-block;
-  padding: 10px;
+/**  display: inline-block;
+  padding: 10px 20px; **/
+  margin-top: 75px;
+  font-size: 3.25em;
 }
 
 .jumbotron .container {
@@ -141,6 +209,10 @@ h1, h2 {
   background-image: url("../images/large_soiree7.jpg");
 }
 
+#members-jumbo {
+  background-image: url("../images/large_hop4.jpg");
+}
+
 #recipes-jumbo {
   background-image: url("../images/large_cookies.jpg");
 }
@@ -154,11 +226,23 @@ h1, h2 {
 ******************************/
 #home-header {
   margin-top: 0;
+  font-size: 2em;
 }
 
 /*****************************
   MEMBERS
 ******************************/
+
+.nav-pills>li+li {
+  margin-left: 6px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+  background-color: #21937f;
+}
+
 
 .members img {
   margin-bottom: 40px;
@@ -243,7 +327,7 @@ h1, h2 {
 ******************************/
 
 footer {
-  background-color: #f8f8f8;
+  background-color: #fef7f1;
   margin-top: 30px;
   padding: 15px;
 }

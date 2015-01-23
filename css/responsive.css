@@ -9,6 +9,10 @@
     display: block;
   }
 
+  .navbar .nav-divider {
+    margin: 0 8px;
+  }
+
   /* need to add another dot when links converge */
   #center-dot {
     display: block;
@@ -50,6 +54,14 @@
   .navbar-nav li a {
     line-height: 20px;
     font-size: 1em;
+  }
+
+  .navbar-nav li:hover {
+    background-color: #da7d79;
+  }
+
+  .navbar-nav li a:hover {
+    box-shadow: none;
   }
 
   #nav-left li:first-child a {
