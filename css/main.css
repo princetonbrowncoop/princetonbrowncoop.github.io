@@ -8,6 +8,10 @@ body {
   font-size: 14px;
 }
 
+p {
+  font-size: 1.125em;
+}
+
 a {
   color: #2cc3a8;
 }
@@ -22,7 +26,8 @@ a span[class^="flaticon-"] {
 }
 
 h1 {
-  color: #f5a75d;
+  color: #473537;
+/**  color: #f5a75d; **/
 }
 
 h2 {
@@ -30,7 +35,8 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   padding: 9px 20px 10px;
-  background-color: #f5a75d;
+/**  background-color: #f5a75d; **/
+  background-color: #2cc3a8;
   color: #fff;
   margin-left: 15px;
   margin-bottom: 20px;
@@ -45,7 +51,7 @@ h2:before {
   width: 0;
   height: 0;
   border-top: 19px solid transparent;
-  border-right: 15px solid #f5a75d;
+  border-right: 15px solid #2cc3a8;
   border-bottom: 19px solid transparent;
 }
 
@@ -57,7 +63,7 @@ h2:after {
   width: 0;
   height: 0;
   border-top: 19px solid transparent;
-  border-left: 15px solid #f5a75d;
+  border-left: 15px solid #2cc3a8;
   border-bottom: 19px solid transparent;
 }
 
@@ -114,11 +120,12 @@ h2:after {
 
 .navbar .nav-divider {
   background-color: #c9413c;
-  color: #473537;
+/** color: #473537;**/
+  color: #fff;
   font-size: 1.5em;
   font-weight: bold;
-  height: 130px;
-  line-height: 130px;
+  height: 100px;
+  line-height: 100px;
   margin: 0 15px;
 }
 
@@ -135,7 +142,7 @@ h2:after {
 .navbar-nav li a {
   color: #fff !important;
   font-size: 1.35em;
-  line-height: 100px;
+  line-height: 70px;
   -o-transition: .1s ease-in-out;
   -ms-transition: .1s ease-in-out;
   -moz-transition: .1s ease-in-out;
@@ -143,7 +150,7 @@ h2:after {
   transition: .1s ease-in-out;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover, .current-page {
   box-shadow: inset 0px 5px 0px 0px;
 }
 
@@ -322,6 +329,10 @@ footer {
   margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+footer p {
+  font-size: 1em;
 }
 
 #copyright {
