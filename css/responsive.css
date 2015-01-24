@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
   /*****************************
     NAVBAR
@@ -65,6 +65,7 @@
   .navbar-nav li a {
     line-height: 20px;
     font-size: 1em;
+    padding-left: 20px;
   }
 
   .navbar-nav li:hover {
@@ -75,12 +76,17 @@
     box-shadow: none;
   }
 
-  #nav-left li:first-child a {
-    padding-left: 15px;
-  }
-
   #nav-right {
     margin-top: 0;
+  }
+
+  .current-page {
+    border-left: 5px solid #fff;
+    box-shadow: none;
+  }
+
+  .current-page a {
+    padding-left: 15px !important;
   }
 
   /*****************************

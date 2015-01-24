@@ -7,9 +7,6 @@ $(function () {
   });
 });
 
-// navbar hover effect
-
-
 // fancy hover effect for recipe cards
 $('.recipe')
   .mouseover(function() {
