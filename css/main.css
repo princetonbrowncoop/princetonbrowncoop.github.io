@@ -315,6 +315,10 @@ h2:after {
   z-index: 1002;
 }
 
+.modal-title {
+  text-align: center;
+}
+
 .modal-body:after {
   content: url('../images/recipe_card_logo.png');
   display: block;
