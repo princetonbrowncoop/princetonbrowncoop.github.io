@@ -125,7 +125,6 @@
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .jumbotron h1 {
-    font-size: 2.5em;
     margin-top: 40px;
   }
 }
