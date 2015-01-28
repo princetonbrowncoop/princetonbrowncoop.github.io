@@ -171,12 +171,6 @@ h2:after {
   text-shadow: 1px 1px 10px #000;
 }
 
-.jumbotron .container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 #home-jumbo {
   background-image: url("../images/large_nassau.jpg");
 }
