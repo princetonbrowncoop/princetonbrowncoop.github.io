@@ -167,8 +167,9 @@ h2:after {
 .jumbotron h1 {
   color: #fff;
   font-size: 3.25em;
-  margin-top: 75px;
+  position: relative;
   text-shadow: 1px 1px 10px #000;
+  top: 75px;
 }
 
 #home-jumbo {
