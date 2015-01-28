@@ -115,14 +115,3 @@
     text-align: center;
   }
 }
-
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-
-  /*****************************
-    JUMBOTRON
-  ******************************/
-
-  .jumbotron h1 {
-    margin-top: 40px;
-  }
-}
