@@ -23,19 +23,11 @@
   }
 
   /*****************************
-  JUMBOTRON
+    JUMBOTRON
   ******************************/
 
   .jumbotron h1 {
     margin-top: 40px;
-  }
-
-  /*****************************
-    HOME PAGE
-  ******************************/
-
-  #home-header {
-    margin-top: 20px;
   }
 }
 
@@ -61,8 +53,6 @@
   /* display site name on navbar */
   .navbar-brand {
     display: block;
-    font-family: 'Amatic SC', cursive;
-    font-size: 2.25em;
   }
 
   /* format hamburger menu */
@@ -98,12 +88,24 @@
   }
 
   /*****************************
-  JUMBOTRON
+    JUMBOTRON
   ******************************/
+
+  .jumbotron {
+    height: 200px;
+  }
 
   .jumbotron h1 {
     font-size: 2.5em;
     margin-top: 40px;
+  }
+
+  /*****************************
+    HOME PAGE
+  ******************************/
+
+  #carousel {
+    display: none;
   }
 
   /*****************************
@@ -124,6 +126,11 @@
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+
+  /*****************************
+    JUMBOTRON
+  ******************************/
+
   .jumbotron h1 {
     margin-top: 40px;
   }

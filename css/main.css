@@ -26,8 +26,7 @@ a span[class^="flaticon-"] {
 }
 
 h1 {
-  color: #473537;
-/**  color: #f5a75d; **/
+  color: #5e382b;
 }
 
 h2 {
@@ -35,7 +34,6 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   padding: 9px 20px 10px;
-/**  background-color: #f5a75d; **/
   background-color: #2cc3a8;
   color: #fff;
   margin-left: 15px;
@@ -75,11 +73,11 @@ h2:after {
   NAVBAR
 ******************************/
 
-#logo {
-  background-color: #473537;
+#logo img {
+  background-color: #5e382b;
   border: .125em dashed #fff;
   border-radius: 100%;
-  box-shadow: 0 0 0 4px #473537;
+  box-shadow: 0 0 0 4px #5e382b;
   display: block;
   height: 175px;
   left: 0;
@@ -89,27 +87,15 @@ h2:after {
   right: 0;
   top: 3%;
   width: 175px;
+  padding: 5px;
   z-index: 1001;
 }
 
-#logo span {
-  color: #fff;
-  font-family: 'Amatic SC', cursive;
-  font-size: 3.5em;
-  line-height: 90%;
-  position: relative;
-  top: 25%;
-  transform: translateY(-25%);
-}
-
 #alt-title {
-  background: rgba(71,53,55,.75);
-  color: #fff;
+  background: rgba(94,56,43,.65);
   display: none;
-  font-family: 'Amatic SC', cursive;
-  font-size: 4em;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 .navbar {
@@ -120,7 +106,6 @@ h2:after {
 
 .navbar .nav-divider {
   background-color: #c9413c;
-/** color: #473537;**/
   color: #fff;
   font-size: 1.5em;
   font-weight: bold;
@@ -137,6 +122,7 @@ h2:after {
 .navbar-brand {
   color: #fff !important;
   display: none;
+  padding: 0;
 }
 
 .navbar-nav li a {
@@ -179,13 +165,10 @@ h2:after {
 }
 
 .jumbotron h1 {
-  /*background: rgba(0, 0, 0, .65);*/
   color: #fff;
-  /*display: inline-block;*/
   font-size: 3.25em;
   margin-top: 75px;
   text-shadow: 1px 1px 10px #000;
-  /*padding: 10px 20px; */
 }
 
 .jumbotron .container {
@@ -312,7 +295,7 @@ h2:after {
 }
 
 .modal-dialog {
-  z-index: 1002;
+  z-index: 1003;
 }
 
 .modal-title {
@@ -323,7 +306,7 @@ h2:after {
   content: url('../images/recipe_card_logo.png');
   display: block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /*****************************

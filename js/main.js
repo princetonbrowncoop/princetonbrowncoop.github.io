@@ -13,7 +13,6 @@ $('.recipe')
     $(this).find('img').css("opacity", "0.6");
     $(this).find('img').css("transform", "scale(1.2)");
     $(this).find('p').css("color", "#fff");
-    // $(this).css("background-color", "#21937f");
     $(this).css("background-color", "#473537");
     $(this).css("cursor", "zoom-in");
 })
