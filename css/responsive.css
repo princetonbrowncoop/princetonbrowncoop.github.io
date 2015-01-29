@@ -21,6 +21,18 @@
   #center-dot {
     display: block;
   }
+
+  /*****************************
+  MEMBERS
+  ******************************/
+
+  .members img {
+    max-width: 150px;
+  }
+
+  .tooltip-inner {
+    width: 130px;
+  }
 }
 
 @media screen and (max-width: 767px) {
