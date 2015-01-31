@@ -41,6 +41,10 @@
     NAVBAR
   ******************************/
 
+  .navbar {
+    background-color: #5e382b;
+  }
+
   /* hide dots in hamburger menu */
   .navbar-collapse .nav > .nav-divider {
     display: none;
