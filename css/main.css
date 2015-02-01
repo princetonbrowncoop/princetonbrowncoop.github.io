@@ -355,7 +355,9 @@ h2:after {
 
 .thumb {
   width: 150px;
+  height: 150px;
   margin: 5px;
+  object-fit: cover;
 }
 
 /*****************************
