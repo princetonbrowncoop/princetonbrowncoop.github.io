@@ -200,27 +200,27 @@ h2:after {
 }
 
 #home-jumbo {
-  background-image: url("../images/large_nassau.jpg");
+  background-image: url("../images/banners/nassau.jpg");
 }
 
 #about-jumbo {
-  background-image: url("../images/large_brownhall.jpg");
+  background-image: url("../images/banners/brownhall.jpg");
 }
 
 #join-jumbo {
-  background-image: url("../images/large_soiree7.jpg");
+  background-image: url("../images/banners/soiree7.jpg");
 }
 
 #members-jumbo {
-  background-image: url("../images/large_hop4.jpg");
+  background-image: url("../images/banners/hop4.jpg");
 }
 
 #recipes-jumbo {
-  background-image: url("../images/large_cookies.jpg");
+  background-image: url("../images/banners/cookies.jpg");
 }
 
 #photos-jumbo {
-  background-image: url("../images/large_hop.jpg");
+  background-image: url("../images/banners/hop.jpg");
 }
 
 /*****************************
@@ -343,7 +343,7 @@ h2:after {
 }
 
 .modal-body:after {
-  content: url('../images/recipe_card_logo.png');
+  content: url('../images/logo_recipes.png');
   display: block;
   text-align: center;
   margin-top: 15px;
