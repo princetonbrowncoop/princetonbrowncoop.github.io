@@ -69,8 +69,8 @@ h2:after {
   font-weight: 400;
 }
 
+/* Tabs - Members, Recipes */
 .nav-tabs.nav-justified > li > a {
-  text-align: center;
   font-size: 1.25em;
   line-height: 50px;
   border: 1px solid #e2f8f4;
@@ -91,7 +91,7 @@ h2:after {
   background-color: #2cc3a8;
 }
 
-.nav-tabs > li > a:hover {
+.nav-tabs.nav-justified > li > a:hover {
   background-color: #e2f8f4;
 }
 
@@ -273,7 +273,7 @@ h2:after {
 ******************************/
 
 #recipes-nav > li > a {
-  padding: 0 10px 0 30px;
+  padding: 0 10px 0 40px;
 }
 
 #recipes-nav {
@@ -283,7 +283,7 @@ h2:after {
 .recipe-icon {
   position: relative;
   top: 5px;
-  left: 40px;
+  left: 50px;
 }
 
 .recipe {

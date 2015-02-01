@@ -27,25 +27,23 @@
 .flaticon-covered16:before {
 	content: "\e000";
 	font-size: 1.75em;
-	margin: 0;
 }
 
-.flaticon-dish:before {
+.flaticon-dessert4:before {
 	content: "\e001";
 	font-size: 1.75em;
 	margin: 0;
 }
 
-.flaticon-party1:before {
-	content: "\e005";
+.flaticon-guacamole:before {
+	content: "\e003";
 	font-size: 1.75em;
 	margin: 0;
 }
 
-.flaticon-sweet9:before {
+.flaticon-party1:before {
 	content: "\e006";
 	font-size: 1.75em;
-	margin: 0;
 }
 
 /* Facebook */
