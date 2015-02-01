@@ -65,16 +65,17 @@
   </div>
 
   <div class="members container">
-
-    <ul class="nav nav-pills">
-      <li class="active"><a href="#s14" data-toggle="pill">Spring 2014</a></li>
-      <li><a href="#f13" data-toggle="pill">Fall 2013</a></li>
-      <li><a href="#s13" data-toggle="pill">Spring 2013</a></li>
+    <ul id="members-nav" class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a href="#f14"role="tab" data-toggle="tab">Fall 2014</a></li>
+      <li role="presentation"><a href="#s14" role="tab" data-toggle="tab">Spring 2014</a></li>
+      <li role="presentation"><a href="#f13" role="tab" data-toggle="tab">Fall 2013</a></li>
+      <li role="presentation"><a href="#s13" role="tab" data-toggle="tab">Spring 2013</a></li>
+      <li role="presentation"><a href="#f12" role="tab" data-toggle="tab">Fall 2012</a></li>
     </ul>
-    <hr>
 
-    <div class="tab-content">
-      <div id="s14" class="tab-pane active text-center">
+    <div id="member-lists" class="tab-content">
+      <!-- FALL 2014 -->
+      <div id="f14" role="tabpanel" class="tab-pane active text-center">
         <!-- squirrel: http://www.geograph.org.uk/photo/3334304 -->
         <img src="images/members/amber_abuga.jpg" data-toggle="tooltip" title="<p><h5>Amber Abuga</h5></p>">
         <img src="images/members/jennifer_chew.jpg" data-toggle="tooltip" title="<p><h5>Jennifer Chew</h5></p>">
@@ -109,23 +110,183 @@
         <img src="images/members/karis_yi.jpg" data-toggle="tooltip" title="<p><h5>Karis Yi</h5></p>">
       </div>
 
-      <div id="f13" class="tab-pane">
-        <ul>
-          <li>Alice</li>
-          <li>Bob</li>
-          <li>Carol</li>
-        </ul>
+      <!-- SPRING 2014 -->
+      <div id="s14" role="tabpanel" class="tab-pane">
+        <div class="col-sm-4">
+          <ul>
+            <li>Sashi Ayyangar</li>
+            <li>Kim Chen</li>
+            <li>Jennifer Chew</li>
+            <li>Chris Cochran</li>
+            <li>Raymond Ha</li>
+            <li>Alaka Halder</li>
+            <li>Yasin Hegazy</li>
+            <li>Channing Huang</li>
+            <li>Sunny Kang</li>
+            <li>Gene Katsevich</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Erin Kim</li>
+            <li>Samuel Kim</li>
+            <li>Kelly Lin Kremer</li>
+            <li>Sola Lee</li>
+            <li>Yifan Li</li>
+            <li>Tasy Lloyd-Damnjanovic</li>
+            <li>Nadirah Mansour</li>
+            <li>Nick Pang</li>
+            <li>Rachel Reiss</li>
+            <li>Christian Rivera</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Kate Shulgina</li>
+            <li>Kathy Sun</li>
+            <li>Joseph Sung</li>
+            <li>Jocelyn Tang</li>
+            <li>Yayoi Teramoto</li>
+            <li>Libby Tolman</li>
+            <li>Karen Wang</li>
+            <li>Michelle Wu</li>
+            <li>Patricia Yeh</li>
+            <li>Richard Zhang</li>
+          </ul>
+        </div>
       </div>
 
-      <div id="s13" class="tab-pane">
-        <ul>
-          <li>Dylan</li>
-          <li>Eve</li>
-          <li>Frank</li>
-        </ul>
+      <!-- FALL 2013 -->
+      <div id="f13" role="tabpanel" class="tab-pane">
+        <div class="col-sm-4">
+          <ul>
+            <li>Amber Abuga</li>
+            <li>Sashi Ayyangar</li>
+            <li>Kimberly Chen</li>
+            <li>Jennifer Chew</li>
+            <li>Christopher Cochran</li>
+            <li>Raymond Ha</li>
+            <li>Alaka Halder</li>
+            <li>Channing Huang</li>
+            <li>Gene Katsevich</li>
+            <li>Samuel Kim</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Kelly Kremer</li>
+            <li>Sola Lee</li>
+            <li>Yifan Li</li>
+            <li>Anastasya Lloyd-Damnjanovic</li>
+            <li>Nadirah Mansour</li>
+            <li>Rachel Reiss</li>
+            <li>Christian Rivera</li>
+            <li>Elena Slobodyan</li>
+            <li>Victoria Su</li>
+            <li>Kathy Sun</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Nag Hyun Sung</li>
+            <li>Jocelyn Tang</li>
+            <li>Yayoi Teramoto</li>
+            <li>Elizabeth Tolman</li>
+            <li>Karen Wang</li>
+            <li>Michelle Wu</li>
+            <li>Patricia Yeh</li>
+            <li>Richard Zhang</li>
+            <li>Rosie Zhang</li>
+            <li>Deanna Zhu</li>
+          </ul>
+        </div>
       </div>
+
+      <!-- SPRING 2013 -->
+      <div id="s13" role="tabpanel" class="tab-pane">
+        <div class="col-sm-4">
+          <ul>
+            <li>Sashi Ayyangar</li>
+            <li>Vincent Bai</li>
+            <li>Jocelyn Chuang</li>
+            <li>Christopher Cochran</li>
+            <li>Aseneth Garza</li>
+            <li>Ben Grange</li>
+            <li>Raymond Ha</li>
+            <li>WenWei Ho</li>
+            <li>Gene Katsevich</li>
+            <li>Nathan Lamb</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Sola Lee</li>
+            <li>Elaine Leong</li>
+            <li>Yifan Li</li>
+            <li>Anastasya Lloyd-Damnjanovic</li>
+            <li>Zara Mannan</li>
+            <li>Nadirah Mansour</li>
+            <li>Max Manzanarez</li>
+            <li>Flora Massah</li>
+            <li>Nabiha Nuruzzaman</li>
+            <li>Jennifer Shim</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Yuta Shinozaki</li>
+            <li>Ryan Shyu</li>
+            <li>Jacob Sniff</li>
+            <li>Daniel Velasco</li>
+            <li>Michelle Wu</li>
+            <li>Joe Yan</li>
+            <li>Alina Yang</li>
+            <li>Rosie Zhang</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FALL 2012 -->
+      <div id="f12" role="tabpanel" class="tab-pane">
+        <div class="col-sm-4">
+          <ul>
+            <li>Vincent Bai</li>
+            <li>Jocelyn Chuang</li>
+            <li>Christopher Cochran</li>
+            <li>Raymond Ha</li>
+            <li>WenWei Ho</li>
+            <li>Gene Katsevich</li>
+            <li>Hyunjean Kim</li>
+            <li>Nathan Lamb</li>
+            <li>Sola Lee</li>
+            <li>Elaine Leong</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Yifan Li</li>
+            <li>Deul Lim</li>
+            <li>Anastasya Lloyd-Damnjanovic</li>
+            <li>Nadirah Mansour</li>
+            <li>Flora Massah</li>
+            <li>Nabiha Nuruzzaman</li>
+            <li>Christian Rivera</li>
+            <li>Jennifer Shim</li>
+            <li>Yuta Shinozaki</li>
+            <li>Ryan Shyu</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li>Jacob Sniff</li>
+            <li>Daniel Velasco</li>
+            <li>Joe Yan</li>
+            <li>Alina Yang</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
-
   </div> <!-- /container -->
 
   <footer>

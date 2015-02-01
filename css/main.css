@@ -69,6 +69,32 @@ h2:after {
   font-weight: 400;
 }
 
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 50px;
+  border: 1px solid #e2f8f4;
+  border-left: 0;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #e2f8f4;
+}
+
+.nav-tabs.nav-justified > li:first-child > a {
+  border-left: 1px solid #e2f8f4;
+}
+
+.nav-tabs.nav-justified > .active >a,
+.nav-tabs.nav-justified > .active >a:hover,
+.nav-tabs.nav-justified > .active >a:focus {
+  color: #fff;
+  border: 1px solid #2cc3a8;
+  background-color: #2cc3a8;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #e2f8f4;
+}
+
 /*****************************
   NAVBAR
 ******************************/
@@ -209,14 +235,16 @@ h2:after {
   MEMBERS
 ******************************/
 
-.nav-pills>li+li {
-  margin-left: 6px;
+#members-nav > li > a {
+  padding: 0 10px 0 10px;
 }
 
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:hover,
-.nav-pills>li.active>a:focus {
-  background-color: #21937f;
+#members-nav {
+  margin-bottom: 20px;
+}
+
+#member-lists ul {
+  margin-bottom: 0;
 }
 
 .members img {
@@ -243,6 +271,20 @@ h2:after {
 /*****************************
   RECIPES
 ******************************/
+
+#recipes-nav > li > a {
+  padding: 0 10px 0 30px;
+}
+
+#recipes-nav {
+  margin-bottom: 30px;
+}
+
+.recipe-icon {
+  position: relative;
+  top: 5px;
+  left: 40px;
+}
 
 .recipe {
   border: .125em solid #ccc;

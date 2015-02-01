@@ -23,7 +23,7 @@
   }
 
   /*****************************
-  MEMBERS
+    MEMBERS
   ******************************/
 
   .members img {
@@ -32,6 +32,18 @@
 
   .tooltip-inner {
     width: 130px;
+  }
+
+  /*****************************
+    RECIPES
+  ******************************/
+
+  .nav-tabs.nav-justified > li > a {
+    font-size: 1.15em;
+  }
+
+  .recipe-icon {
+    left: 10px;
   }
 }
 
@@ -113,6 +125,17 @@
 
   #carousel {
     display: none;
+  }
+
+  /*****************************
+    RECIPES
+  ******************************/
+  #recipes-nav .nav-tabs.nav-justified > li > a {
+    border-left: 1px solid #e2f8f4;
+  }
+
+  .recipe-icon {
+    left: 110px;
   }
 
   /*****************************

@@ -24,9 +24,33 @@
 	transition: .25s ease-in-out;
 }
 
+.flaticon-covered16:before {
+	content: "\e000";
+	font-size: 1.75em;
+	margin: 0;
+}
+
+.flaticon-dish:before {
+	content: "\e001";
+	font-size: 1.75em;
+	margin: 0;
+}
+
+.flaticon-party1:before {
+	content: "\e005";
+	font-size: 1.75em;
+	margin: 0;
+}
+
+.flaticon-sweet9:before {
+	content: "\e006";
+	font-size: 1.75em;
+	margin: 0;
+}
+
 /* Facebook */
 .flaticon-facebook44:before {
-	content: "\e000";
+	content: "\e002";
 	margin: 0;
 }
 
@@ -36,7 +60,7 @@
 
 /* Instagram */
 .flaticon-instagram13:before {
-	content: "\e001";
+	content: "\e003";
 }
 
 .flaticon-instagram13:hover {
@@ -45,7 +69,7 @@
 
 /* Email */
 .flaticon-mail22:before {
-	content: "\e002";
+	content: "\e004";
 }
 
 .flaticon-mail22:hover {
