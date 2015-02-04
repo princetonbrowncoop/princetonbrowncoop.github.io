@@ -26,7 +26,7 @@ a span[class^="flaticon-"] {
 }
 
 h1 {
-  color: #5e382b;
+  color: #c9413c;
 }
 
 h2 {
@@ -284,7 +284,7 @@ h2:after {
 .recipe-icon {
   position: relative;
   top: 5px;
-  left: 50px;
+  left: 25px;
 }
 
 .recipe {
