@@ -324,7 +324,7 @@ h2:after {
 .recipe img {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  max-width: 100%;
+  width: 100%;
   -o-transition: .2s ease-in-out;
   -ms-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
@@ -333,8 +333,11 @@ h2:after {
 }
 
 .recipe p {
-  padding: 5% 5% 0;
-  line-height: 90%;
+  padding: 3% 5% 0;
+}
+
+.recipe p.bold {
+  line-height: 125%;
 }
 
 .recipe p:last-child {

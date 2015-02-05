@@ -45,6 +45,12 @@
   .recipe-icon {
     right: -5%;
   }
+
+  .recipe p {
+    font-size: 1em;
+    line-height: 90%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -138,6 +144,14 @@
 
   .recipe-icon {
     right: -28%;
+  }
+
+  .recipe p {
+    padding: 3% 3% 0;
+  }
+
+  .recipe p:last-child {
+    padding-bottom: 3%;
   }
 
   /*****************************
