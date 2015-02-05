@@ -43,7 +43,7 @@
   }
 
   .recipe-icon {
-    left: 10px;
+    right: -5%;
   }
 }
 
@@ -136,7 +136,7 @@
   }
 
   .recipe-icon {
-    left: 90px;
+    right: -28%;
   }
 
   /*****************************
