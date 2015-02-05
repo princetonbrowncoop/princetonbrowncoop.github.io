@@ -117,6 +117,7 @@
 
   .jumbotron h1 {
     font-size: 2.5em;
+    margin-top: 10px;
   }
 
   /*****************************
@@ -153,5 +154,55 @@
 
   .icons {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 567px) {
+
+  /*****************************
+    GENERAL
+  ******************************/
+
+  h2 {
+    font-size: 1.125em;
+    padding: 9px 7px;
+  }
+
+  h2:before {
+    border-top-width: 18px;
+    border-right-width: 12px;
+    border-bottom-width: 18px;
+  }
+
+  h2:after {
+    border-top-width: 18px;
+    border-left-width: 12px;
+    border-bottom-width: 18px;
+  }
+
+  /*****************************
+    HOME
+  ******************************/
+
+  #home-header {
+    font-size: 1.75em;
+  }
+
+  /*****************************
+    MEMBERS
+  ******************************/
+
+  .members img {
+    max-width: 130px;
+    margin: 5px;
+  }
+
+  /*****************************
+    GALLERY
+  ******************************/
+
+  .thumb {
+    width: 130px;
+    height: 130px;
   }
 }
