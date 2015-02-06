@@ -138,6 +138,10 @@
     line-height: 40px;
   }
 
+  #recipes-nav {
+    margin-bottom: 20px;
+  }
+
   .recipe p {
     padding: 3% 3% 0;
   }
