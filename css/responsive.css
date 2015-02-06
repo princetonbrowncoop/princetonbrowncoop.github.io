@@ -42,10 +42,6 @@
     font-size: 1.15em;
   }
 
-  .recipe-icon {
-    right: -5%;
-  }
-
   .recipe p {
     font-size: 1em;
     line-height: 90%;
@@ -140,10 +136,6 @@
   .nav-tabs.nav-justified > li > a {
     border-left: 1px solid #e2f8f4;
     line-height: 40px;
-  }
-
-  .recipe-icon {
-    right: -28%;
   }
 
   .recipe p {

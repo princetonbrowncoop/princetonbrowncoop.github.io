@@ -16,7 +16,7 @@
 	font-family: Flaticon;
 	font-size: 2.5em;
 	font-style: normal;
-	margin: 0 0 0 15px;
+	margin: 0;
 	-o-transition: .25s ease-in-out;
 	-ms-transition: .25s ease-in-out;
 	-moz-transition: .25s ease-in-out;
@@ -38,7 +38,6 @@
 .flaticon-guacamole:before {
 	content: "\e003";
 	font-size: 1.75em;
-	margin: 0;
 }
 
 .flaticon-party1:before {
